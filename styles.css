@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #fceef2;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card{
+  display: flex;
+  background-color: #fff0f5;
+  width: 900px;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+margin: 20px;
+}
+
+.left, .right {
+  padding: 30px;
+  padding-bottom: 0%;
+}
+
+.left {
+  width: 50%;
+  text-align: center;
+  background-color:  #fff0f5;
+  font-family: fantasy;
+  
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.cake-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-top: 100px;
+  object-fit: cover;
+  overflow: hidden;
+ 
+}
+
+.right {
+  width: 60%;
+  background-color: #f8dce4;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+ ol {
+  margin: 10px 0 20px;
+  padding-left: 20px;
+}
+
+.enjoy {
+  font-size: 90px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 30px;
+  font-family: fantasy;
+}
